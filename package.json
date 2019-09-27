@@ -1,0 +1,25 @@
+{
+  "name": "name",
+  "version": "0.0.1",
+  "description": "\"Demo package.json\"",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ViktoriiaMukha/homework.git"
+  },
+  "keywords": [
+    "ViktoriiaMukha"
+  ],
+  "author": "Viktoria",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ViktoriiaMukha/homework/issues"
+  },
+  "homepage": "https://github.com/ViktoriiaMukha/homework#readme",
+  "devDependencies": {
+    "bootstrap": "^4.3.1"
+  }
+}
