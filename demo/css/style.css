@@ -1,8 +1,15 @@
+body{
+	height: 100%;
+}
+.form-control{
+	margin-bottom: 10px;
+}
 .map-container{
     overflow:hidden;
     padding-bottom:56.25%;
     position:relative;
-    height:0;
+	height:0;
+	margin-bottom: 10px;
     }
     .map-container iframe{
     left:0;
@@ -10,35 +17,11 @@
     height: 100%;
     width: 100%;
     position:absolute;
-    }
-	/* #footer{
-		background-color: black;
+	}
+	#footer{
+		flex: 0 0 auto;
 		width: 100%;
-		height: 600px;
+		height: 200px;
+		background-color: black;
 		
-	} */
-	.footers a {
-		color: grey;
-	}
-	.footers p {
-		color: grey;
-	}
-	.footers ul {
-		line-height:30px;
-	}
-	#social-fb:hover {
-		 color: #3B5998;
-		 transition:all .001s;
-	 }
-	 #social-tw:hover {
-		 color: #4099FF;
-		 transition:all .001s;
-	 }
-	 #social-gp:hover {
-		 color: #d34836;
-		 transition:all .001s;
-	 }
-	 #social-em:hover {
-		 color: #f39c12;
-		 transition:all .001s;
-	 }
+	
